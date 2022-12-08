@@ -1,7 +1,7 @@
 {
   "name": "heroku-wechat-gptbot",
   "version": "1.0.0",
-  "description": "herku chartgpt",
+  "description": "heroku chartgpt",
   "main": "index.js",
   "module": "lib/bundle.esm.js",
   "type": "module",
@@ -15,7 +15,8 @@
     "chatgpt": "^2.0.4",
     "p-retry": "^5.1.2",
     "qrcode-terminal": "^0.12.0",
-    "wechaty": "^1.20.2"
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-wechat": "^1.18.4"
   },
   "engines": {
     "node": "16.x"
