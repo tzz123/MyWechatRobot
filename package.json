@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "herku chartgpt",
   "main": "index.js",
+  "module": "lib/bundle.esm.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Ricardo",
   "license": "ISC",
   "dependencies": {
+    "chatgpt": "^2.0.4",
+    "p-retry": "^5.1.2",
+    "qrcode-terminal": "^0.12.0",
     "wechaty": "^1.20.2"
   },
   "engines": {
