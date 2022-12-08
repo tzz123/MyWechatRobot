@@ -14,6 +14,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f https://github.com/tzz123/MyWechatRobot.git master
+git push https://github.com/tzz123/MyWechatRobot.git master
 
 cd -
